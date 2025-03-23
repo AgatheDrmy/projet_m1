@@ -1,0 +1,113 @@
+body{
+    font-family: 'Robbot', sans-serif;
+	height:100vh;
+	min-height:550px;
+}
+
+a{
+  text-decoration:none;
+  color:#6EA5BE;
+}
+
+p{
+    color:#6EA5BE;
+    margin:0px;
+}
+h2{
+    margin:0px;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    font-family: 'Robbot', sans-serif;
+    max-width: 100vh;
+    width: 100%;
+    border: 1px solid #6EA5BE;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color:#6EA5BE;
+}
+
+input[type="button"] {
+    font-family: 'Robbot', sans-serif;
+    max-width: 100vh;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 6px;
+    background:#6EA5BE;
+    border: none;
+}
+
+.login-show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.login-reg-panel{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width:70%;
+	right:0;
+    left:0;
+    margin:auto;
+    height:400px;
+    background: linear-gradient(#94EFFF, #FC343C);
+}
+.white-panel{
+    background-color: #ffffff;
+    height:100vh;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+}
+.login-reg-panel input[type="radio"]{
+    position:relative;
+    display:none;
+}
+
+.login-reg-panel #label-login, 
+.login-reg-panel #label-register{
+    color:#6EA5BE;
+    font-size: small;
+    cursor:pointer;
+}
+.login-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    left:0;
+    position:absolute;
+    text-align:left;
+}
+.register-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+    
+}
+.right-log{right:50px !important;}
+
+.login-show, 
+.register-show{
+    z-index: 1;
+    opacity:0;
+    transition:0.3s ease-in-out;
+    text-align:left;
+    padding:50px;
+}
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}

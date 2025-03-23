@@ -3,8 +3,16 @@ body {
     background: linear-gradient(#94EFFF, #FC343C);
 }
 
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}
+
+.right-log{right:50px !important;}
+
 .white-panel{
     background-color: #ffffff;
+    transition:.3s ease-in-out;
 }
 
 h1{
