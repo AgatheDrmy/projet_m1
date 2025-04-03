@@ -1,6 +1,4 @@
 
-
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -31,3 +29,18 @@ window.onclick = function(event) {
       modal.style.display = "none";
     }
 }
+
+
+
+//Les étoiles
+var logID = 'log',
+  log = $('<div id="'+logID+'"></div>');
+$('body').append(log);
+  $('[type*="radio"]').change(function () {
+    var me = $(this);
+    log.html(me.attr('value'));
+  });
+
+
+
+

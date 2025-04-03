@@ -15,6 +15,8 @@
 
     <!--JS-->
     <script src="../assets/Js/modif_data.js" defer></script>
+<!-- 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script> -->
 
 </head>
 
@@ -78,8 +80,8 @@
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                     </svg>
                 </div>
-                <button>Filtrer</button>
-                <button>Ajouter une question</button>
+                <button class="rempli">Filtrer</button>
+                <button class="rempli">Ajouter une question</button>
             </div>
                 
 
@@ -311,7 +313,115 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close-mine">&times;</span>
-            <p>Modifier la question</p>
+            <h3>Modifier la question</h3>
+
+            <div class="info-question">
+                <div class="info" id="type">
+                    <p class="element">Type :</p>
+                    <select name="type">
+                        <option value="">Choissez un type</option> 
+                        <option value="QCM">QCM</option>
+                        <option value="libre">Libre</option>
+                    </select>
+                </div>
+                <div class="info" id="chapitre">
+                    <p class="element">Thèmes :</p>
+                    <div class="choix-chap-them">
+                        <ul class="list-chap-them">
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>   
+                        </ul>    
+                    </div>
+                </div>
+                <div class="info" id="theme">
+                    <p class="element">Chapitre :</p>
+                    <div class="choix-chap-them">
+                        <ul class="list-chap-them">
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" >
+                                <p>qsdfghjklm</p>
+                            </li>   
+                        </ul>    
+                    </div>
+                </div>
+                <div class="info" id="enonce">
+                    <p class="element">Enoncé</p>
+                    <textarea placeholder="Ajoutez un texte..." class="enonce"></textarea>
+                </div>
+                <div class="info" id="reponses">
+                    <p class="element">Réponses :</p>
+                    <textarea placeholder="Ajoutez un texte..." class="reponses"></textarea>
+                    <textarea placeholder="Ajoutez un texte..." class="reponses"></textarea>
+                    <button class="bouton-vide">Ajouter une réponse</button>
+                </div>
+                <div class="info" id="difficulte">
+                    <p class="element">Difficulté :</p>
+                    <form>
+                        <fieldset>
+                            <span class="star-cb-group">
+                            <input type="radio" id="rating-5" name="rating" value="5" /><label for="rating-5">5</label>
+                            <input type="radio" id="rating-4" name="rating" value="4" checked="checked" /><label for="rating-4">4</label>
+                            <input type="radio" id="rating-3" name="rating" value="3" /><label for="rating-3">3</label>
+                            <input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
+                            <input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
+                            <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" /><label for="rating-0">0</label>
+                            </span>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="info" id="image-question">
+                    <button class="bouton-vide">Ajouter une image</button>
+                </div>
+                <div class="sauv-suppr">
+                    <button class="rempli-c">Sauvegarder</button>
+                    <button class="suppr">Supprimer la question(désactiver)</button>
+                </div>
+                
+            </div>
+            
+
 
         </div>
     </div>
