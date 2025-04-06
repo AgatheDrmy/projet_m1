@@ -1,0 +1,129 @@
+
+
+
+
+h2{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+h3{
+    text-align: center;
+    margin-bottom : 5vh;
+}
+
+h4{
+    color: #D64551;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 1vh;
+}
+
+.les-mods{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 1vh;
+}
+
+.mod-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5vw;
+}
+
+.mod-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1vw;
+    max-width: 20vw;
+}
+
+div.ret-suiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 57vw;
+}
+.mod-autre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3vw;
+}
+
+div.mod-autre input.rempli-c{
+    width: 27vw;
+}
+
+div.texte input.rempli-c{
+    width: 57vw;
+}
+
+input.rempli-c::placeholder{
+    color: #ffffff;
+}
+
+
+input.rempli-c{
+    width: 10vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 6px;
+    background: #6EA5BE;
+    border: none;
+    color:#000000;
+    padding-left: 1vw;
+    padding-right: 1vw; 
+}
+
+textarea{
+    border: solid;
+    background-color: #6EA5BE;
+    border-color: #6EA5BE;
+    border-radius: 3px;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    width: 55.5vw;
+    height: 10vh;;
+}
+  
+textarea::placeholder{
+    color:#ffffff;
+}
+
+button.vide-c{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #6EA5BE;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #ffffff;
+    color:#6EA5BE;
+    font-size: large;
+}
