@@ -23,6 +23,7 @@ main button.rempli-c{
     color:#000000;
     padding-left: 3vw;
     padding-right: 3vw; 
+    font-size: medium;
 }
 
 button.vide-c{
@@ -35,7 +36,8 @@ button.vide-c{
     padding-bottom: 1vh;
     background-color: #ffffff;
     color:#6EA5BE;
-    font-size: large;
+    font-size: medium;
+    align-items: center;
 }
 
 div.ret-suiv{
