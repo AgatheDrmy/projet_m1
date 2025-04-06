@@ -37,6 +37,28 @@ input.rempli-c, input.nombre[type="text"]{
 
 }
 
+div.ret-suiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65vw;
+}
+
+button.vide-c{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #6EA5BE;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 4vh;
+    background-color: #ffffff;
+    color:#6EA5BE;
+    font-size: large;
+}
+
+
 .page{
     
     display: flex;
@@ -45,7 +67,7 @@ input.rempli-c, input.nombre[type="text"]{
 }
 
 .contenu{
-    width: 80vw;
+    width: 65vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
