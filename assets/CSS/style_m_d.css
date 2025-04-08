@@ -13,6 +13,7 @@ h3{
 
 div.entete{
   width: 89.5vw;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -164,6 +165,8 @@ div.contenu{
   border-style: solid;
   border-width: 1px;
   border-color: #D64551;
+  padding-bottom: 0.25vh;
+  padding-top: 0.25vh;
 }
 
 .contenu ul{
@@ -310,6 +313,8 @@ div.choix-chap-them{
   border-width: 1px;
   border-color: #6EA5BE;
   width: 52vw;
+  padding-bottom: 0.25vh;
+  padding-top: 0.25vh;
 }
 
 .choix-chap-them ul.list-chap-them{
@@ -446,8 +451,9 @@ fieldset {
   border: 0;
   width: 5em;
   border-radius: 1px;
-  padding: 1em 1.5em 0.9em;
-  margin: 1em auto;
+  margin: 0.25vh;
+  height: 5vh;
+  overflow: auto;
 }
 
 #log {
