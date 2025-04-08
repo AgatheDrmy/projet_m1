@@ -10,7 +10,7 @@ h2{
 
 h3{
     text-align: center;
-    margin-bottom : 5vh;
+    margin-bottom : 3vh;
 }
 
 h4{
@@ -63,7 +63,9 @@ div.ret-suiv{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 57vw;
+    width: 59.5vw;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
 }
 .mod-autre{
     display: flex;
@@ -81,10 +83,27 @@ div.texte input.rempli-c{
     width: 57vw;
 }
 
+div.time{
+    display: flex;
+    justify-content: start;
+    column-gap: 4vw;
+}
+
+div.date_heure{
+    display: flex;
+    justify-content: start;
+    column-gap: 2vw;
+}
+
+
+
+
+
+
+
 input.rempli-c::placeholder{
     color: #ffffff;
 }
-
 
 input.rempli-c{
     width: 10vw;
@@ -107,7 +126,7 @@ textarea{
     padding-bottom: 0.5vh;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
-    width: 55.5vw;
+    width: 58vw;
     height: 10vh;;
 }
   
@@ -126,4 +145,24 @@ button.vide-c{
     background-color: #ffffff;
     color:#6EA5BE;
     font-size: large;
+}
+
+input[type="datetime-local"]{
+    border-style: solid;
+    border-color:#6EA5BE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 2vw;
+    padding-right: 1.5vw;
+}
+
+input[type="time"]{
+    border-style: solid;
+    border-color:#6EA5BE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 2vw;
+    padding-right: 1.5vw;
 }
